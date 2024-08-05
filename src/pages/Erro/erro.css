@@ -1,0 +1,25 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found a{
+    font-size: 24px;
+    text-decoration: none;
+    color: silver;
+    background-color: black;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin-top: 14px;
+}
+
+.not-found a:hover{
+    color: white;
+}
